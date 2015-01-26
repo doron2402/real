@@ -1,0 +1,535 @@
+{
+	"Resources": {
+		"Home": {
+			"ApiError": {
+				"Action": "{0}, {1}.",
+				"Heading": "一時的にレストランの空席情報を取得することができませんでした。",
+				"HomeLink": "<a href=\"/home.aspx\">ホームページに戻る</a>",
+				"SearchAgainLink": "<a href=\"javascript://;\" onclick=\"this.href=window.location.href.replace('/?', '/interim?')\">ホームページに戻る</a>"
+			},
+			"Index": {
+				"MileTitle": "km",
+				"PageTitle": "レストラン空席状況",
+				"ReviewsComingSoon": "レビューは近日公開予定です",
+				"SearchLoadingText": "空席状況を確認中"
+			}
+		},
+		"Interim": {
+			"Index": {
+				"Strings": {
+					"InterimLoader": "OpenTable は各レストランのコンピュータ予約システムに接続し、予約情報を検索して、お客様のためのテーブルを探しています。",
+					"PageTitle": "OpenTable レストラン オンライン予約"
+				}
+			}
+		},
+		"Shared": {
+			"AffiliateRestaurantList": {
+				"Strings": {
+					"ResultsTitleFormat": ""
+				}
+			},
+			"BestRestaurantsLandingPage": {
+				"Filters": {
+					"Label_Apply": "再検索",
+					"Label_Cancel": "キャンセル",
+					"Label_FilterBy_Cuisine": "料理ジャンル",
+					"Label_FilterBy_OfferType": "キャンペーン",
+					"Label_FilterBy_Price": "予算",
+					"Label_Refine": "絞込み",
+					"Label_Sort": "並べ替え",
+					"Label_Sort_Name": "五十音順",
+					"Label_Sort_Popularity": "デフォルト",
+					"Label_Sort_Popularity_Mobile": "デフォルト",
+					"Label_Sort_Rating": "評価順",
+					"Label_Sort_Rating_Mobile": "評価順",
+					"Title_Cuisines": "料理ジャンル",
+					"Title_Filters": "フィルター",
+					"Title_Locations": "エリア",
+					"Title_OfferTypes": "スペシャルオファー",
+					"Title_OnlyExactDateTime": "{0} 限定",
+					"Title_PopOnly": "1000ポイントプレゼント",
+					"Title_Price": "予算",
+					"Title_RefineYourSearch": "絞込み検索"
+				},
+				"Strings": {
+					"Calendar_WeekDays_Short": "日,月,火,水,木,金,土",
+					"DateSelectionFormat": "MM/DD (###)",
+					"DinersChoice_CuisineFormat": "Best {0}",
+					"DinersChoice_MostBooked": "Most Booked",
+					"DinersChoice_MostBookedPop": "Most Booked 1000-Point Tables",
+					"HeaderLink_Help": "ヘルプ",
+					"HeaderLink_SignIn": "ログイン",
+					"HeaderLink_SignUp": "新規登録",
+					"HeaderTitleFormat": "{0}ベストレストラン",
+					"Label_FindATable": "空席の検索",
+					"Label_NeighborhoodLinks": "ベストレストランをもっと見る",
+					"Label_Next": "次へ",
+					"Label_Previous": "戻る",
+					"Label_ShowAll": "すべて見る",
+					"Label_Today": "今日",
+					"MetaDescription": "{0}ベストレストランでお食事を！口コミ・評価、メニューをもとに、目的にバッチリ合ったレストランを見つけましょう。空席があれば、その場ですぐに予約を入れることができます。",
+					"PageTitleFormat": "{0}ベストレストラン | OpenTable",
+					"TimeslotLegend_1000Points": "1000ポイント",
+					"TimeslotLegend_Offer": "オファー {0}",
+					"TimeslotLegend_Offers": "オファー {0}",
+					"TitleFormat": "ベストレストラン"
+				}
+			},
+			"Common": {
+				"BreadCrumbs": {
+					"HomeNode": "ホーム",
+					"LastNode": "空席状況",
+					"LocationNode": "のレストラン"
+				},
+				"Filters": {
+					"ChooseDistance": "距離を選択",
+					"Distance": "キロ",
+					"MoreLink": "そのほか",
+					"SeeAllOffers": "スペシャルオファー",
+					"Title": "絞り込み",
+					"Title_Cuisines": "料理ジャンル",
+					"Title_Locations": "エリア",
+					"Title_OfferTypes": "スペシャルオファー",
+					"Title_OnlyExactDateTime": "{0} 限定",
+					"Title_PopOnly": "1000ポイントプレゼント",
+					"Title_Price": "予算",
+					"Title_Within": "範囲"
+				},
+				"LocationBar": {
+					"ChangeLocation": "エリアを変更"
+				},
+				"Modals": {
+					"CancelButton": "キャンセル",
+					"Location_AddressPlaceholderText": "地域名、住所または郵便番号を入力",
+					"Location_AllMetroName": "{0} のすべて",
+					"Location_ChangeLocationLink": "エリアを変更",
+					"Location_DidYouMean": "もしかして:",
+					"Location_NoRadiusSelectedError": "<p class=\"location-error\">検索する地域を最低 1 つ選択してください</p>",
+					"Location_NoSearchResultsError": "<div class=\"list-wrapper\">\n    <span>その場所は見つかりませんでした。住所を確認して再度試してください。.</span>\n    <p>ご提案:</p>\n\n    <ul>\n        <li>住所が正確に入力されていることを確かめてください.</li>\n        <li>住所に都道府県名および市区町村名が含まれていることを確かめてください.</li>\n        <li>郵便番号を入力してみてください.</li>\n    </ul>\n</div>",
+					"Location_NoSelectionError": "<p class=\"location-error\">検索する地域を最低 1 つ選択してください</p>",
+					"Location_RadiusLabel": "検索範囲",
+					"Location_SearchLabel": "地域名または郵便番号を入力",
+					"Location_SeeAllLocationsLink": "すべての都市および地域を表示",
+					"Location_SelectCity": "または地域を選択",
+					"Location_Title_Area": "エリア",
+					"Location_Title_ChangeLocation": "エリアを変更",
+					"Offers_PopOfferTitle": "1,000 Points",
+					"Price_Text": "価格帯 は、1 名様分のディナーに 1 ドリンクを加え、税金などを加算した平均単価を目安として表記しています。",
+					"Price_Title": "価格帯の説明",
+					"Restaurant_BookingMessage": "空席状況(クリックして予約)",
+					"Restaurant_CrossStreet": "",
+					"Restaurant_Cuisine": "料理ジャンル",
+					"Restaurant_Neighborhood": "エリア",
+					"Restaurant_Parking": "",
+					"Restaurant_Price": "価格帯",
+					"Restaurant_SpecialOffers": "スペシャルオファー",
+					"SubmitButton": "決定"
+				},
+				"Results": {
+					"Header_Area": "エリア",
+					"Header_Availability": "空席状況 (クリックして予約)",
+					"Header_Cuisine": "料理ジャンル",
+					"Header_Name": "レストラン名",
+					"Header_Name_Short": "店舗名",
+					"Header_Popularity": "人気",
+					"Header_Distance": "Distance",
+					"Header_Price": "予算",
+					"Header_Ratings": "評価",
+					"NextAvailableButton": "次の空席を探す",
+					"PopTitle": "{0} 1000ポイントプレゼント実施中のレストラン",
+					"PopTitle_Plural": "{0} 1000ポイントプレゼント実施中のレストラン",
+					"Reviews": "口コミ {0}件",
+					"ReviewsComingSoon": "口コミ募集中",
+					"Reviews_Plural": "口コミ {0}件",
+					"SeeAllOffers": "スペシャルオファー",
+					"Timeslot1000Points": "1000ポイント",
+					"Title_Availability": "空席のあるレストラン {0} 件",
+					"Title_Availability_Plural": "空席のあるレストラン {0} 件",
+					"Title_Promos": "レストラン {0}",
+					"Title_NoAvailability": "空席のないレストラン {0} 件",
+					"Title_NoAvailability_Plural": "空席のないレストラン {0} 件",
+					"WithAvailabilityLink": "空席のあるレストラン {0} 件",
+					"WithAvailabilityLink_Plural": "空席のあるレストラン {0} 件",
+					"WithNoAvailabilityLink": "空席のないレストラン {0} 件",
+					"WithNoAvailabilityLink_Plural": "空席のないレストラン {0} 件",
+					"FeaturedPopTitle": "1000ポイントプレゼント実施中のレストラン",
+					"FeaturedPopTitle_Plural": "1000ポイントプレゼント実施中のレストラン",
+					"Header_Sorted_by": "並べ順:",
+					"SeeAllPopRestaurantsFormat": "",
+					"Title_ResultsTotal": "レストラン {0}",
+					"Title_ResultsTotal_Plural": "レストラン {0}",
+					"Title_Promos_Plural": "レストラン {0}"
+				},
+				"Strings": {
+					"Button_FindATable": "空席の検索",
+					"DateTimePartySizeDateFormat": "ddd, d MMMM",
+					"SearchCoversLargeParty": "20+ 名",
+					"SearchCoversMultiple": "{0}名",
+					"SearchCoversSingular": "{0}名",
+					"SearchLabel_Date": "日付",
+					"SearchLabel_DateFormat": "西暦/月/日",
+					"SearchLabel_Diners": "人数",
+					"SearchLabel_InvalidSearchMsg": "過去の日時を指定することはできません。予約日を確認の上、もう一度入力してください.",
+					"SearchLabel_Time": "時刻"
+				}
+			},
+			"CuisineLandingPage": {
+				"Strings": {
+					"CoverImageAlt": "{1} Restaurants {0}",
+					"CoverImageHeadingFormat": "{1} Restaurants {0}",
+					"MetaDescription": "{0}にある{1}のレストラン情報はこちらから！トップクラスのお店に今すぐ予約を入れませんか。口コミや店舗の詳しい情報、さらにメニューや写真も見ながら空席情報をチェックすることができます。OpenTable で目的に合ったレストランを見つけて、楽しいお食事を！",
+					"PageTitleFormat": "{0} {1} Restaurants | {2}",
+					"TitleFormat": "{1} Restaurants {0}"
+				}
+			},
+			"DinersChoice": {
+				"Filters": {
+					"AllFilterLabel": "万事 {0}",
+					"BestAmbience": "Best Ambience",
+					"BestFood": "Best Food",
+					"BestOverall": "Best Overall",
+					"BestService": "Best Service",
+					"MostBookedTitle": "人気レストラン",
+					"RatingsTitle": "評価",
+					"RefineLocation": "エリアを絞り込む",
+					"SelectAList": "リストを選択",
+					"SpecialFeaturesTitle": "こだわり",
+					"Tagline": ""
+				},
+				"LocationBar": {
+					"Restaurants": "レストラン",
+					"TitleFormat": "{0} {1} - {2}"
+				},
+				"Results": {
+					"ResultsTitle": "Diners' Choice トップ レストラン 10 件"
+				},
+				"Strings": {
+					"CuisineTitleFormat": "Best {0}",
+					"MostBookedPop": "1000-Point Tables",
+					"MostBookedPopTitle": "Most Booked 1000-Point Tables",
+					"MostBookedTitle": "Most Booked",
+					"PageTitleFormat": "{0} {1} {2} | {3}",
+					"Tagline": "OpenTable ユーザーの評価をもとに選出されています。",
+					"TitleFallback": "Diners Choice",
+					"TitleFormat": "{0} Restaurants - {1}"
+				}
+			},
+			"DinersChoiceList": {
+				"CategoryLabels": {
+					"afternoontea": "",
+					"ambience": "",
+					"brunch": "",
+					"businessmeals": "",
+					"childfriendly": "",
+					"disabledaccess": "",
+					"food": "",
+					"foodies": "",
+					"greatforbrunch": "",
+					"groups": "",
+					"hotspot": "",
+					"latenightfind": "",
+					"lunch": "",
+					"mostbooked": "",
+					"mostbooked_pop": "",
+					"neighborhoodgem": "",
+					"notablewinelist": "",
+					"outdoordining": "",
+					"outstandingvalue": "",
+					"overall": "",
+					"preposttheatre": "",
+					"romance": "",
+					"scenicview": "",
+					"service": "",
+					"specialoccasions": "",
+					"value": "",
+					"vegetarianoptions": "",
+					"vibrantbarscene": ""
+				},
+				"CategoryPageDescriptions": {
+					"afternoontea": "",
+					"ambience": "",
+					"brunch": "",
+					"businessmeals": "",
+					"childfriendly": "",
+					"disabledaccess": "",
+					"food": "",
+					"foodies": "",
+					"greatforbrunch": "",
+					"groups": "",
+					"hotspot": "",
+					"latenightfind": "",
+					"lunch": "",
+					"mostbooked": "",
+					"mostbooked_pop": "",
+					"neighborhoodgem": "",
+					"notablewinelist": "",
+					"outdoordining": "",
+					"outstandingvalue": "",
+					"overall": "",
+					"preposttheatre": "",
+					"romance": "",
+					"scenicview": "",
+					"service": "",
+					"specialoccasions": "",
+					"value": "",
+					"vegetarianoptions": "",
+					"vibrantbarscene": ""
+				},
+				"Strings": {
+					"BestFoodFilterName": "",
+					"CategoryTitleFormat": "",
+					"CuisineTitleFormat": "",
+					"LinkSectionCuisinesTitle": "",
+					"LinkSectionFeaturesTitle": "",
+					"LinkSectionLocationTitleFormat": "",
+					"LinkSectionRegionsTitleFormat": "",
+					"MostBooked": "",
+					"MostBookedFilterName": "",
+					"MostBookedPop": "",
+					"MostBookedPopFilterName": "",
+					"PageTitleFormat": "",
+					"ResultsTitle": "",
+					"CategoryLabelFallbackFormat": "",
+					"SearchSmallHeadingFormat": "",
+					"CuisinePageDescriptionFallbackFormat": ""
+				}
+			},
+			"JustAddedList": {
+				"Strings": {
+					"PageDescriptionFormat": "",
+					"PageTitleFormat": "",
+					"ResultsTitleAvailabilityFormat": "",
+					"ResultsTitleFormat": "",
+					"SearchBigHeadingFormat": "",
+					"Tagline": ""
+				}
+			},
+			"OfferRestaurantList": {
+				"Strings": {
+					"PageDescriptionFormat": "",
+					"PageTitleFormat": "",
+					"ResultsTitleAvailabilityFormat": "",
+					"ResultsTitleFormat": "",
+					"SearchBigHeadingFormat": ""
+				}
+			},
+			"PopRestaurantList": {
+				"Strings": {
+					"PageDescription": "",
+					"PageTitleFormat": "",
+					"PopScheduleHeading": "",
+					"SearchBigHeadingFormat": ""
+				}
+			},
+			"Redesign": {
+				"Filters": {
+					"Label_Apply": "",
+					"Label_Cancel": "",
+					"Label_FilterBy_Cuisine": "",
+					"Label_FilterBy_OfferType": "",
+					"Label_FilterBy_Price": "",
+					"Label_FilterBy_Range": "",
+					"Label_Sort": "",
+					"Label_Sort_Distance": "",
+					"Label_Sort_Name": "",
+					"Label_Sort_Popularity": "",
+					"Label_Sort_Popularity_Mobile": "",
+					"Label_Sort_Rating": "",
+					"Label_Sort_Rating_Mobile": "",
+					"Title_Cuisines": "",
+					"Title_Filters": "",
+					"Title_Locations": "",
+					"Title_Neighborhoods": "",
+					"Title_OfferTypes": "",
+					"Title_OnlyExactDateTime": "",
+					"Title_PopOnly": "",
+					"Title_Price": "",
+					"Title_Range": "",
+					"Title_RefineYourSearch": "",
+					"Title_Regions": ""
+				},
+				"NoResults": {
+					"Heading": "",
+					"OtherSuggestionsHeading": "",
+					"OtherSuggestionsMessage": ""
+				},
+				"Results": {
+					"About1000PointRestaurants": "",
+					"FeaturedPopTitle": "",
+					"FeaturedPopTitle_Plural": "",
+					"Header_Area": "",
+					"Header_Availability": "",
+					"Header_Cuisine": "",
+					"Header_Distance": "",
+					"Header_Name": "",
+					"Header_Name_Short": "",
+					"Header_Popularity": "",
+					"Header_Price": "",
+					"Header_Ratings": "",
+					"Header_Sorted_by": "",
+					"IncludeInterspercedAvailabilityLink": "",
+					"IncludeInterspercedAvailabilityText": "",
+					"NextAvailableButton": "",
+					"PopTitle": "",
+					"PopTitle_Plural": "",
+					"Reviews": "",
+					"ReviewsComingSoon": "",
+					"Reviews_Plural": "",
+					"SeeAllOffers": "",
+					"Timeslot1000Points": "",
+					"Title_Availability": "",
+					"Title_Availability_Plural": "",
+					"Title_DateLessSearch": "",
+					"Title_NoAvailability": "",
+					"Title_NoAvailability_Plural": "",
+					"Title_Promos": "",
+					"Title_Promos_Plural": "",
+					"WithAvailabilityLink": "",
+					"WithAvailabilityLink_Plural": ""
+				},
+				"Strings": {
+					"CopyrightFormat": "",
+					"CurrencySymbol": "",
+					"DefaultReviewerName": "",
+					"InterimLoader": "",
+					"Label_Next": "",
+					"Label_Previous": "",
+					"Label_Sort": "",
+					"Label_Sort_Name": "",
+					"Label_Sort_Popularity": "",
+					"Label_Sort_Rating": "",
+					"Label_TopOffer": "",
+					"Less": "",
+					"MapFooterLink_Privacy": "",
+					"MapFooterLink_Terms": "",
+					"More": "",
+					"Reserve_Dinner": "",
+					"Reserve_Lunch": "",
+					"Reserve_Now": "",
+					"TimeslotLegend_1000Points": "",
+					"TimeslotLegend_Offer": "",
+					"TimeslotLegend_Offers": ""
+				}
+			},
+			"RestaurantAttributesLandingPage": {
+				"Strings": {
+					"HeaderTitleFormat": "{0} in {1}",
+					"MetaDescription": "{0} in {1}. Make reservations, read reviews, see photos, explore menus and find the perfect spot for any occasion.",
+					"PageTitleFormat": "{0} {1} | OpenTable"
+				}
+			},
+			"RestaurantList": {
+				"Strings": {
+					"PageDescriptionFormat": "",
+					"PageTitleFormat": "",
+					"SearchBigHeadingFormat": ""
+				}
+			},
+			"Search": {
+				"Map": {
+					"ClickToSeeAvailableTimes": "空席があります（ピンをクリックして表示）",
+					"Navigation_Next": "次",
+					"Navigation_Previous": "前",
+					"SearchWithin": "以下の距離内のレストランのみを検索する",
+					"Title": "付近のレストラン {0} 軒を表示しています",
+					"Title_Between": "{0} から {1} 軒目のレストランを表示しています",
+					"UserPinTitle": "別のエリアを検索するには、人形をドラッグアンドドロップしてください"
+				},
+				"Results": {
+					"AboveMaxPartySize": "",
+					"BelowMinPartySize": "",
+					"BlockedDay": "",
+					"EarlyCutoff": "",
+					"NotActive": "",
+					"NotFarEnoughInAdvance": "",
+					"NoTimesExist": "",
+					"Offline": "",
+					"SameDayCutoff": "",
+					"TooFarInAdvance": "",
+					"SeeAllOffers": "",
+					"FilteredBy": "絞り込み条件",
+					"FilteredBy_Cuisine": "料理ジャンル",
+					"FilteredBy_Location": "エリア",
+					"FilteredBy_OfferType": "スペシャルオファー",
+					"FilteredBy_OnlyExactDateTime": "{0} 限定",
+					"FilteredBy_PopOnly": "1000ポイント",
+					"FilteredBy_Price": "価格帯",
+					"BlockedTimesExist": "大変申し訳ございませんが、ご指定の日時での {0} のご予約を受付けることができません。"
+				},
+				"Strings": {
+					"NoSearchResults_MetroLink": "{0} のホームページへ戻る",
+					"NoSearchResults_MetroListLink": "{0} のすべてのレストランを表示",
+					"NoSearchResults_NoMatch_Message": "絞り込みの条件が多いため、指定された条件に該当するレストランはありませんでした",
+					"NoSearchResults_NoMatch_Title": "該当なし",
+					"NoSearchResults_Or": "または",
+					"NoSearchResults_OtherSuggestions": "そのほかのご提案",
+					"NoSearchResults_OtherSuggestionsMessage": "画面上部のプルダウン メニューから予約日時、人数を変更してください",
+					"NoSearchResults_StartOverButton": "最初からやり直す",
+					"NoSearchResults_UndoLastFilterButton": "最後の絞り込みを取り消す"
+				},
+				"Tabs": {
+					"List": "リスト",
+					"Map": "地図"
+				},
+				"UnavailableMessages": {
+					"AboveMaxPartySize": "",
+					"BelowMinPartySize": "",
+					"BlockedDay": "",
+					"EarlyCutoff": "",
+					"NotActive": "",
+					"NotFarEnoughInAdvance": "",
+					"NoTimesExist": "",
+					"Offline": "",
+					"SameDayCutoff": "",
+					"TooFarInAdvance": "",
+					"BlockedTimesExist": ""
+				}
+			}
+		},
+		"Strings": {
+			"Calendar_FirstDay": "0",
+			"Calendar_Months": "年1 月,年2 月,年3 月,年4 月,年5 月,年6 月,年7 月,年8 月,年9 月,年10 月,年11 月,年12 月",
+			"Calendar_Weekdays": "にちようび,げつようび,かようび,すいようび,もくようび,きんようび,どようび",
+			"Calendar_WeekdaysShort": "日,月,火,水,木,金,土",
+			"Currency": "￥",
+			"DateFormat": "yyyy/MM/dd",
+			"DistanceUnit": "キロ",
+			"DistanceUnit_Small": "キロ",
+			"Domain": "http://www.opentable.jp",
+			"DomainName": "OpenTable",
+			"FaviconURL": "/s/content/images/ot/favicon.ico",
+			"GlobalFooter": "Copyright &copy; {0} OpenTable, Inc. All rights reserved.",
+			"GlobalFooterLink_Privacy": "プライバシー ポリシー",
+			"GlobalFooterLink_Terms": "利用規約",
+			"GlobalHeaderLink_Android_Link": "https://play.google.com/store/apps/details?id=jp.opentable",
+			"GlobalHeaderLink_Android_Text_Fallback": "Android",
+			"GlobalHeaderLink_Android_Title_Attribute": "Androidアプリをダウンロードする",
+			"GlobalHeaderLink_Help": "ヘルプ",
+			"GlobalHeaderLink_Home": "ホーム",
+			"GlobalHeaderLink_iPhone_Link": "https://itunes.apple.com/jp/app/opentable-jp/id360284244",
+			"GlobalHeaderLink_iPhone_Text_Fallback": "iPhone",
+			"GlobalHeaderLink_iPhone_Title_Attribute": "iPhone",
+			"GlobalHeaderLink_MyProfile": "マイ プロフィール",
+			"GlobalHeaderLink_SignIn": "ログイン",
+			"GlobalHeaderLink_SignOut": "ログアウト",
+			"GlobalHeaderTagline": "レストランのネット予約　いつでも ● どこでも ● 簡単に",
+			"GoogleMaps_Region": "jp",
+			"LogoImagePath": "/s/content/images/ot/opentable-logo.png",
+			"LogoImagePath_Concierge": "/s/content/images/ot/opentable-logo-concierge.png",
+			"PriceList2": "￥￥ (～5,000 円)",
+			"PriceList3": "￥￥￥ (5,001～10,000 円)",
+			"PriceList4": "￥￥￥￥ (10,001 円～)",
+			"StarRatingText": "{0} star",
+			"StarRatingText_Plural": "{0} stars",
+			"TimeFormat": "H:mm",
+			"TimeFormatJS": "h:mm",
+			"SeoFooterMarkup": "<div class=\"seo-footer columns col-4\">\n    <div class=\"col col-no-margin\">\n        <h4>Featured Cities</h4>\n        <ul>\n            <li><a href=\"http://www.opentable.com/atlanta-restaurants\">Atlanta Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/chicago-restaurants\">Chicago Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/denver-restaurants\">Denver Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/las-vegas-restaurants\">Las Vegas Restaurants</a></li>\n            <li><a href=\"http://www.opentable.co.uk/london-restaurants\">London Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/los-angeles-restaurants\">Los Angeles Restaurants</a></li>\n        </ul>\n    </div>\n\n    <div class=\"col col-double-margin\">\n        <h4>&nbsp;</h4>\n        <ul>\n            <li><a href=\"http://www.opentable.com/boston-restaurants\">New England Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/new-york-city-restaurants\">New York Area Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/philadelphia-restaurants\">Philadelphia Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/san-francisco-restaurants\">San Francisco Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/seattle-restaurants\">Seattle Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/washington-dc-restaurants\">Washington DC Restaurants</a></li>\n        </ul>\n    </div>\n\n    <div class=\"col\">\n        <h4>Popular on OpenTable</h4>\n        <ul>\n            <li><a href=\"http://www.opentable.co.uk\">OpenTable UK</a></li>\n            <li><a href=\"http://www.opentable.com/promo.aspx?pid=412\">Private Dining</a></li>\n            <li><a href=\"http://www.opentable.com/promo.aspx?pid=156\">Restaurant Weeks</a></li>\n            <li><a href=\"http://www.opentable.com/promo.aspx?pid=433\">Diner's Choice Winners</a></li>\n            <li><a href=\"http://blog.opentable.com\">OpenTable Blog</a></li>\n            <li><a href=\"http://m.opentable.com\">OpenTable Mobile</a></li>\n        </ul>\n    </div>\n\n    <div class=\"col col-no-margin\">\n        <h4>More Information</h4>\n        <ul>\n            <li><a href=\"http://www.opentable.com/info/aboutus.aspx\">About OpenTable</a></li>\n            <li><a href=\"http://www.opentable.com/opentable-restaurant-management-system\">Restaurateurs: Join Us</a></li>\n            <li><a href=\"http://www.opentable.com/info/diningrewards.aspx\">Dining Rewards</a></li>\n            <li><a href=\"http://www.opentable.com/info/reservingforothers.aspx\">Reserve for Others</a></li>\n            <li><a href=\"http://www.opentable.com/info/affiliates.aspx\">Affiliate Program</a></li>\n            <li><a href=\"http://www.rgmgroup.com/advertisers-opentable.html\">Advertise</a></li>\n            <li><a href=\"http://www.opentable.com/opentable-sitemap.aspx\">Sitemap</a></li>\n        </ul>\n    </div>\n</div>",
+			"RestaurantsString": "レストラン",
+			"OutboundUrlDateTimeFormat": "yyyy/MM/dd HH:mm:ss",
+			"DateAddedDateFormat": "MMMM d, yyyy",
+			"DateAddedFormat": "",
+			"ReviewerDefaultName": "OpenTable ダイナー",
+			"PromoExpiredFallbackMessage": "[PromoName]は終了しましたが、このプロモーションに参加したレストランに別途ご予約は可能です。次回開催される際にも[PromoName]に参加するレストラン一覧をぜひご覧ください。また、OpenTable 加盟店ネットワークに参加している <a href=\"/start.aspx?m=[MetroID]\">[MetroShortName]のレストラン[NumOfRestInMetro]件もご検討ください。</a>"
+		}
+	}
+}

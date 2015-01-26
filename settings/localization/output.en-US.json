@@ -1,0 +1,542 @@
+{
+	"Resources": {
+		"Home": {
+			"ApiError": {
+				"Action": "You can head {0} or try your {1}.",
+				"Heading": "Oops. Looks like we have some temporary issues getting restaurant availability!",
+				"HomeLink": "<a href=\"/home.aspx\">home</a>",
+				"SearchAgainLink": "<a href=\"javascript://;\" onclick=\"this.href=window.location.href.replace('/?', '/interim?')\">search again</a>"
+			},
+			"Index": {
+				"MileTitle": "mile",
+				"PageTitle": "Restaurant Reservation Availability",
+				"ReviewsComingSoon": "Reviews coming soon",
+				"SearchLoadingText": "Checking Availability"
+			}
+		},
+		"Interim": {
+			"Index": {
+				"Strings": {
+					"InterimLoader": "OpenTable is connecting to restaurants and searching their computer reservation systems to find tables for you.",
+					"PageTitle": "OpenTable Restaurants and Restaurant Reservations"
+				}
+			}
+		},
+		"Shared": {
+			"AffiliateRestaurantList": {
+				"Strings": {
+					"ResultsTitleFormat": "Restaurants affiliated with {0}"
+				}
+			},
+			"BestRestaurantsLandingPage": {
+				"Filters": {
+					"Label_Apply": "Apply",
+					"Label_Cancel": "Cancel",
+					"Label_FilterBy_Cuisine": "Filter by Cuisine",
+					"Label_FilterBy_OfferType": "Filter by Special Offers",
+					"Label_FilterBy_Price": "Filter by Price",
+					"Label_Refine": "REFINE",
+					"Label_Sort": "Sort",
+					"Label_Sort_Name": "A-Z",
+					"Label_Sort_Popularity": "Default",
+					"Label_Sort_Popularity_Mobile": "Default",
+					"Label_Sort_Rating": "Highest Rated",
+					"Label_Sort_Rating_Mobile": "Rating",
+					"Title_Cuisines": "Cuisine",
+					"Title_Filters": "Filters",
+					"Title_Locations": "Location",
+					"Title_OfferTypes": "Special Offers",
+					"Title_OnlyExactDateTime": "{0} Only",
+					"Title_PopOnly": "1,000 Point Times",
+					"Title_Price": "Price",
+					"Title_RefineYourSearch": "Refine Your Search"
+				},
+				"Strings": {
+					"Calendar_WeekDays_Short": "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
+					"DateSelectionFormat": "M/DD ###",
+					"DinersChoice_CuisineFormat": "Best {0}",
+					"DinersChoice_MostBooked": "Most Booked",
+					"DinersChoice_MostBookedPop": "Most Booked 1000-Point Tables",
+					"HeaderLink_Help": "Help",
+					"HeaderLink_SignIn": "Sign In",
+					"HeaderLink_SignUp": "Sign Up",
+					"HeaderTitleFormat": "Best Restaurants in {0}",
+					"Label_FindATable": "Find A Table",
+					"Label_NeighborhoodLinks": "Browse More Best Restaurants",
+					"Label_Next": "Next",
+					"Label_Previous": "Previous",
+					"Label_ShowAll": "Show All",
+					"Label_Today": "Today",
+					"MetaDescription": "Book now at the best restaurants in {0}. Read reviews, explore menus and find the perfect spot for any occasion.",
+					"PageTitleFormat": "Best Restaurants in {0} | OpenTable",
+					"TimeslotLegend_1000Points": "1,000 points",
+					"TimeslotLegend_Offer": "{0} Offer",
+					"TimeslotLegend_Offers": "{0} Offers",
+					"TitleFormat": "Best Restaurants"
+				}
+			},
+			"Common": {
+				"BreadCrumbs": {
+					"HomeNode": "Home",
+					"LastNode": "Restaurant availability",
+					"LocationNode": "restaurants"
+				},
+				"Filters": {
+					"ChooseDistance": "Choose Distance",
+					"Distance": "miles",
+					"MoreLink": "More",
+					"SeeAllOffers": "See all offers",
+					"Title": "Narrow results",
+					"Title_Cuisines": "Cuisine",
+					"Title_Locations": "Location",
+					"Title_OfferTypes": "Special Offers",
+					"Title_OnlyExactDateTime": "{0} Only",
+					"Title_PopOnly": "1,000 Point Times",
+					"Title_Price": "Price",
+					"Title_Within": "Within"
+				},
+				"LocationBar": {
+					"ChangeLocation": "Change location"
+				},
+				"Modals": {
+					"CancelButton": "Cancel",
+					"Location_AddressPlaceholderText": "Input city, address or zip",
+					"Location_AllMetroName": "All {0}",
+					"Location_ChangeLocationLink": "Change location",
+					"Location_DidYouMean": "Did you mean",
+					"Location_NoRadiusSelectedError": "<p class=\"location-error\">Please select a radius to search within</p>",
+					"Location_NoSearchResultsError": "<div class=\"list-wrapper\">\n    <span>Sorry, we were unable to find that location. Please check the address and retry.</span>\n    <p>Suggestions:</p>\n\n    <ul>\n        <li>Make sure all street and city names are spelled correctly.</li>\n        <li>Make sure your address includes a city and state.</li>\n        <li>Try entering a zip code.</li>\n    </ul>\n</div>",
+					"Location_NoSelectionError": "<p class=\"location-error\">Please search for a location or select from below</p>",
+					"Location_RadiusLabel": "Search within",
+					"Location_SearchLabel": "Enter City, or Zip",
+					"Location_SeeAllLocationsLink": "See All Cities and States",
+					"Location_SelectCity": "Or Select City",
+					"Location_Title_Area": "Neighborhoods",
+					"Location_Title_ChangeLocation": "Change Location",
+					"Offers_PopOfferTitle": "1,000 Points",
+					"Offers_TooltipHeaderMultiple": "{0} offers available",
+					"Offers_TooltipHeaderSingle": "One offer available",
+					"Price_Text": "The Price reflects the estimated price of a dinner for one with one drink and tip. Lunch usually costs 25% less.",
+					"Price_Title": "Price Legend",
+					"Restaurant_BookingMessage": "Reserve your table now",
+					"Restaurant_CrossStreet": "Cross Street",
+					"Restaurant_Cuisine": "Cuisine",
+					"Restaurant_Neighborhood": "Neighborhood",
+					"Restaurant_Parking": "Parking",
+					"Restaurant_Price": "Price",
+					"Restaurant_SpecialOffers": "Special Offers",
+					"SingleSearch_ReserveAt": "Reserve at",
+					"SubmitButton": "Submit"
+				},
+				"Results": {
+					"Header_Area": "Neighborhood",
+					"Header_Availability": "Availability (click time to reserve)",
+					"Header_Cuisine": "Cuisine",
+					"Header_Name": "Restaurant Name",
+					"Header_Name_Short": "Name",
+					"Header_Popularity": "Popularity",
+					"Header_Price": "Price",
+					"Header_Ratings": "Ratings",
+					"NextAvailableButton": "Find next available",
+					"PopTitle": "{0} Restaurant with 1,000-Point times available",
+					"PopTitle_Plural": "{0} Restaurants with 1,000-Point times available",
+					"Reviews": "{0} review",
+					"ReviewsComingSoon": "Reviews coming soon",
+					"Reviews_Plural": "{0} reviews",
+					"SeeAllOffers": "See all offers",
+					"Timeslot1000Points": "1,000pts",
+					"Title_Availability": "{0} restaurant with availability",
+					"Title_Availability_Plural": "{0} restaurants with availability",
+					"Title_Promos": "{0} Restaurant",
+					"Title_NoAvailability": "{0} restaurant with no availability",
+					"Title_NoAvailability_Plural": "{0} restaurants with no availability",
+					"WithAvailabilityLink": "{0} additional restaurant with availability",
+					"WithAvailabilityLink_Plural": "{0} additional restaurants with availability",
+					"WithNoAvailabilityLink": "{0} additional restaurant with no availability",
+					"WithNoAvailabilityLink_Plural": "{0} additional restaurants with no availability",
+					"Header_Distance": "Distance",
+					"FeaturedPopTitle": "Restaurant with 1,000-Point times available",
+					"FeaturedPopTitle_Plural": "Restaurants with 1,000-Point times available",
+					"Header_Sorted_by": "Sorted by:",
+					"SeeAllPopRestaurantsFormat": "See all {0} restaurants with 1,000-Point times",
+					"Title_ResultsTotal": "{0} restaurant",
+					"Title_ResultsTotal_Plural": "{0} restaurants",
+					"Title_Promos_Plural": "{0} Restaurants"
+				},
+				"Strings": {
+					"Button_FindATable": "Find a Table",
+					"DateTimePartySizeDateFormat": "ddd, MMMM d",
+					"Label_Next": "Next",
+					"Label_Previous": "Previous",
+					"SearchCoversLargeParty": "Larger Party",
+					"SearchCoversMultiple": "{0} people",
+					"SearchCoversSingular": "{0} person",
+					"SearchLabel_Date": "Date",
+					"SearchLabel_DateFormat": "mm/dd/yyyy",
+					"SearchLabel_Diners": "Party Size",
+					"SearchLabel_InvalidSearchMsg": "You have tried to select a time in the past. Please enter a valid date and time combination.",
+					"SearchLabel_Time": "Time"
+				}
+			},
+			"CuisineLandingPage": {
+				"Strings": {
+					"CoverImageAlt": "{0} {1} Restaurants",
+					"CoverImageHeadingFormat": "{0} {1} Restaurants",
+					"MetaDescription": "Book now at top {0} {1} restaurants, read reviews, explore menus and photos. Find the perfect spot for any occasion",
+					"PageTitleFormat": "{0} {1} Restaurants | {2}",
+					"TitleFormat": "{0} {1} Restaurants"
+				}
+			},
+			"DinersChoice": {
+				"Filters": {
+					"AllFilterLabel": "All {0}",
+					"BestAmbience": "Best Ambiance",
+					"BestFood": "Best Food",
+					"BestOverall": "Best Overall",
+					"BestService": "Best Service",
+					"MostBookedTitle": "Most Booked",
+					"RatingsTitle": "Ratings",
+					"RefineLocation": "Refine Location",
+					"SelectAList": "Select a List",
+					"SpecialFeaturesTitle": "Special Features",
+					"Tagline": "As rated by OpenTable diners <a href=\"/popups/dinerschoicelearnmore.aspx\" rel=\"nofollow\">Learn More &raquo;</a>"
+				},
+				"LocationBar": {
+					"Restaurants": "Restaurant",
+					"TitleFormat": "{0} {1} - {2}"
+				},
+				"Results": {
+					"ResultsTitle": "10 Diners' Choice Winners"
+				},
+				"Strings": {
+					"CuisineTitleFormat": "Best {0}",
+					"MostBookedPop": "1000-Point Tables",
+					"MostBookedPopTitle": "Most Booked 1000-Point Tables",
+					"MostBookedTitle": "Most Booked",
+					"PageTitleFormat": "{0} {1} {2} | {3}",
+					"Tagline": "As rated by OpenTable diners <a href=\"/popups/dinerschoicelearnmore.aspx\" id=\"learn_more_link\" rel=\"nofollow\">Learn More &raquo;</a>",
+					"TitleFallback": "Diners' Choice",
+					"TitleFormat": "{0} Restaurants - {1}"
+				}
+			},
+			"DinersChoiceList": {
+				"CategoryLabels": {
+					"afternoontea": "Best Afternoon Tea Restaurants",
+					"ambience": "Best Ambience Restaurants",
+					"brunch": "Best Restaurants for Brunch",
+					"businessmeals": "Best Restaurants for Business Meals",
+					"childfriendly": "Best Kid Friendly Restaurants",
+					"disabledaccess": "Restaurants that have Disabled Access",
+					"food": "Best Restaurants for Overall Cuisine",
+					"foodies": "Best Restaurants that are Fit for Foodies",
+					"greatforbrunch": "Restaurants Great for Brunch",
+					"groups": "Best Restaurants for Group Bookings",
+					"hotspot": "Best Hot Spots",
+					"latenightfind": "Best Late Night Finds",
+					"lunch": "Restaurants Great for Lunch",
+					"mostbooked": "Most Booked Restaurants",
+					"mostbooked_pop": "Most Booked 1,000-Point Tables",
+					"neighborhoodgem": "Neighborhood Gems",
+					"notablewinelist": "Restaurants with the Most Notable Wine List",
+					"outdoordining": "Restaurants Great for Outdoor Dining",
+					"outstandingvalue": "Outstanding Value Restaurants",
+					"overall": "Best Overall Restaurants",
+					"preposttheatre": "Best Pre/Post Theatre Restaurants",
+					"romance": "Most Romantic Restaurants",
+					"scenicview": "Most Scenic View Restaurants",
+					"service": "Restaurants with the Best Service",
+					"specialoccasions": "Best Restaurants for Special Occasions",
+					"value": "Best Value Restaurants",
+					"vegetarianoptions": "Best Vegetarian Restaurants",
+					"vibrantbarscene": "Most Vibrant Bar Scene"
+				},
+				"CategoryPageDescriptions": {
+					"afternoontea": "Looking for the best afternoon tea in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"ambience": "Looking for restaurants with the best ambiance in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"brunch": "Looking for restaurants that are great for brunch in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"businessmeals": "Looking for restaurants that are great for business meals in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"childfriendly": "Looking for the best restaurants that are kid friendly in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"disabledaccess": "Looking for restaurants that have disabled access in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"food": "Looking for restaurants with the best overall cuisine in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"foodies": "Looking for the best restaurants that are fit for foodies in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"greatforbrunch": "Looking for the best restaurants that are great for brunch in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"groups": "Looking for restaurants that are great for groups in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"hotspot": "Looking for restaurants that are the best hot spots in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"latenightfind": "Looking for the best restaurants that are the best late-night finds in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"lunch": "Looking for the best restaurants that are great for lunch in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"mostbooked": "Looking for the most booked restaurants in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"mostbooked_pop": "Looking for the most booked 1,000-point tables in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"neighborhoodgem": "Looking for the best restaurants that are the best neighborhood gems in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"notablewinelist": "Looking for restaurants with the most notable wine lists in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"outdoordining": "Looking for the best restaurants that are great for outdoor dining in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"outstandingvalue": "Looking for outstanding value restaurants in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"overall": "Looking for the best overall restaurants in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"preposttheatre": "Looking for the best pre/post theatre restaurants in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"romance": "Looking for restaurants that are the most romantic in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"scenicview": "Looking restaurants that have the most scenic view in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"service": "Looking for restaurants with the best service in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"specialoccasions": "Looking for the best special occasion restaurants in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"value": "Looking for the best value restaurants in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"vegetarianoptions": "Looking for the best vegetarian restaurants in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"vibrantbarscene": "Looking for restaurants that have the most vibrant bar scenes in {0}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!"
+				},
+				"Strings": {
+					"BestFoodFilterName": "Best Overall Cuisine",
+					"CategoryTitleFormat": "{0} in {1}",
+					"CuisineTitleFormat": "Best {0} in {1}",
+					"LinkSectionCuisinesTitle": "Best Cuisines",
+					"LinkSectionFeaturesTitle": "Notable Diners Choice Lists",
+					"LinkSectionLocationTitleFormat": "Diners Choice Best of {0}",
+					"LinkSectionRegionsTitleFormat": "Diners Choice lists in all of {0}",
+					"MostBooked": "Most Booked",
+					"MostBookedFilterName": "Most Booked Restaurants",
+					"MostBookedPop": "Most Booked 1,000pt",
+					"MostBookedPopFilterName": "Most Booked 1,000pt Tables",
+					"PageTitleFormat": "{0} {1} | OpenTable",
+					"ResultsTitle": "Top ​10 Diners' Choice Winners",
+					"CategoryLabelFallbackFormat": "Best {0} Restaurants",
+					"SearchSmallHeadingFormat": "Diners' Choice - {0}",
+					"CuisinePageDescriptionFallbackFormat": "Looking for restaurants with the best overall {0} cuisine in {1}? You’re in the right place. Each month OpenTable analyzes more than 400,000 new diner reviews. We sort the results by category to help you discover new favorites. It's a great partnership: you reserve, eat, and review. We listen...and deliver the results for all to benefit. Enjoy!",
+					"MetaDescriptionFormat": "Book now at some of the best {0} restaurants in {1}. Read reviews, explore menus and photos and find the perfect spot for any occasion."
+				}
+			},
+			"JustAddedList": {
+				"Strings": {
+					"PageDescriptionFormat": "OpenTable welcomes our newest additions in {0}! These restaurants, some brand new, some new to online reservations, join our network of more than 31,000 great places to dine. Discover and book a great new {0} restaurant today.",
+					"PageTitleFormat": "New {0} Restaurants | OpenTable",
+					"ResultsTitleAvailabilityFormat": "{0} restaurants new to OpenTable for {1} on {2}, at {3}",
+					"ResultsTitleFormat": "{0} restaurants new to OpenTable",
+					"SearchBigHeadingFormat": "New to OpenTable in {0}",
+					"Tagline": "The restaurants below recently joined the OpenTable network. They've replaced their pen-and-paper reservation book with OpenTable's computerized reservation system. Now you can instantly find available tables and book confirmed reservations, online and around the clock, at these restaurants."
+				}
+			},
+			"OfferRestaurantList": {
+				"Strings": {
+					"PageDescriptionFormat": "",
+					"PageTitleFormat": "Special offers at top restaurants in {0}",
+					"ResultsTitleAvailabilityFormat": "{0} tables with special offers for {1} on {2}, at {3}",
+					"ResultsTitleFormat": "{0} tables with special offers",
+					"SearchBigHeadingFormat": "Special offers at top restaurants in {0}"
+				}
+			},
+			"PopRestaurantList": {
+				"Strings": {
+					"PageDescription": "Earn free meals fasterby making a 1,000 point reservation at oneof these great restaurants. Once you reach 2,000 points you'll be able to redeem them for a $20 dining cheque!",
+					"PageTitleFormat": "{0} restaurants dining rewards",
+					"PopScheduleHeading": "1,000 point tables",
+					"SearchBigHeadingFormat": "Make a 1,000-Point Reservation in {0}"
+				}
+			},
+			"Redesign": {
+				"Filters": {
+					"Label_Apply": "Apply",
+					"Label_Cancel": "Cancel",
+					"Label_FilterBy_Cuisine": "Filter by Cuisine",
+					"Label_FilterBy_OfferType": "Filter by Points & Offers",
+					"Label_FilterBy_Price": "Filter by Price",
+					"Label_FilterBy_Range": "Choose a Range",
+					"Label_Sort": "Sort",
+					"Label_Sort_Distance": "Distance",
+					"Label_Sort_Name": "A-Z",
+					"Label_Sort_Popularity": "Most Popular",
+					"Label_Sort_Popularity_Mobile": "Popular",
+					"Label_Sort_Rating": "Highest Rated",
+					"Label_Sort_Rating_Mobile": "Rating",
+					"Title_Cuisines": "Cuisine",
+					"Title_Filters": "Filters",
+					"Title_Locations": "Location",
+					"Title_Neighborhoods": "Neighborhoods",
+					"Title_OfferTypes": "Points & Offers",
+					"Title_OnlyExactDateTime": "{0} Only",
+					"Title_PopOnly": "1,000 Point Times",
+					"Title_Price": "Price",
+					"Title_Range": "Range:",
+					"Title_RefineYourSearch": "Refine Your Search",
+					"Title_Regions": "Regions"
+				},
+				"NoResults": {
+					"Heading": "We did not find a match for your search",
+					"OtherSuggestionsHeading": "Other suggestions",
+					"OtherSuggestionsMessage": "Or deselect any checked filters to broaden your search"
+				},
+				"Results": {
+					"Header_Area": "Neighborhood",
+					"Header_Availability": "Availability (click time to reserve)",
+					"Header_Cuisine": "Cuisine",
+					"Header_Name": "Restaurant Name",
+					"Header_Name_Short": "Name",
+					"Header_Popularity": "Popularity",
+					"Header_Price": "Price",
+					"Header_Ratings": "Ratings",
+					"NextAvailableButton": "Find next available",
+					"PopTitle": "{0} table with 1,000-Point times available",
+					"PopTitle_Plural": "{0} tables with 1,000-Point times available",
+					"Reviews": "{0} review",
+					"ReviewsComingSoon": "Reviews coming soon",
+					"Reviews_Plural": "{0} reviews",
+					"SeeAllOffers": "See all offers",
+					"Timeslot1000Points": "1,000pts",
+					"Title_Availability": "{0} table available for {1} on {2}, at {3}",
+					"Title_Availability_Plural": "{0} tables available for {1} on {2}, at {3}",
+					"Title_Promos": "{0} Restaurant",
+					"Title_NoAvailability": "{0} table with no availability for {1} on {2}, at {3}",
+					"Title_NoAvailability_Plural": "{0} tables with no availability for {1} on {2}, at {3}",
+					"WithAvailabilityLink": "{0} additional table available",
+					"WithAvailabilityLink_Plural": "{0} additional tables available",
+					"Header_Distance": "Distance",
+					"FeaturedPopTitle": "Restaurant with 1,000-Point times available",
+					"FeaturedPopTitle_Plural": "Restaurants with 1,000-Point times available",
+					"Header_Sorted_by": "Sorted by:",
+					"IncludeInterspercedAvailabilityLink": "Repeat this search showing omitted results",
+					"IncludeInterspercedAvailabilityText": "{0} additional restaurants were not shown as they do not have availability matching your search criteria",
+					"About1000PointRestaurants": "About 1,000-Point Restaurants",
+					"Title_IntersperseAvailability_Plural": "{0} tables for {1} on {2}, at {3}",
+					"Title_DateLessSearch": "{0} tables available",
+					"Title_Promos_Plural": "{0} Restaurants"
+				},
+				"Strings": {
+					"CopyrightFormat": "Copyright &copy; {0} OpenTable, Inc. All rights reserved.",
+					"CurrencySymbol": "$",
+					"DefaultReviewerName": "OpenTable Diner",
+					"InterimLoader": "Finding tables...",
+					"Label_Next": "Next",
+					"Label_Previous": "Previous",
+					"Label_Sort": "Sort",
+					"Label_Sort_Name": "A-Z",
+					"Label_Sort_Popularity": "Most Popular",
+					"Label_Sort_Rating": "Highest Rated",
+					"Label_TopOffer": "Top offer:",
+					"Less": "Less",
+					"MapFooterLink_Privacy": "Privacy Policy",
+					"MapFooterLink_Terms": "Terms of Use",
+					"More": "More",
+					"Reserve_Dinner": "Reserve for Dinner",
+					"Reserve_Lunch": "Reserve for Lunch",
+					"Reserve_Now": "Reserve",
+					"TimeslotLegend_1000Points": "1,000 points",
+					"TimeslotLegend_Offer": "Offer",
+					"TimeslotLegend_Offers": "Offers"
+				}
+			},
+			"RestaurantAttributesLandingPage": {
+				"Strings": {
+					"HeaderTitleFormat": "{0} in {1}",
+					"MetaDescription": "{0} in {1}. Make reservations, read reviews, see photos, explore menus and find the perfect spot for any occasion.",
+					"PageTitleFormat": "{0} {1} | OpenTable"
+				}
+			},
+			"RestaurantList": {
+				"Strings": {
+					"PageDescriptionFormat": "Find {0} restaurants. Search by location, cuisine, or price to refine restaurant results in the {0} area.",
+					"PageTitleFormat": "{0} Restaurants List | OpenTable",
+					"SearchBigHeadingFormat": "All {0} restaurants"
+				}
+			},
+			"Search": {
+				"Map": {
+					"ClickToSeeAvailableTimes": "<span class=\"link-color\">Times availabile</span>, click pin to show",
+					"Navigation_Next": "Next",
+					"Navigation_Previous": "Prev",
+					"SearchWithin": "Only search for restaurants within",
+					"Title": "Showing nearest {0} restaurants",
+					"Title_Between": "Showing restaurants {0} - {1}",
+					"UserPinTitle": "Drag and drop me to search near a different area"
+				},
+				"Results": {
+					"AboveMaxPartySize": "Your party size is larger than this restaurant's limit for online bookings.",
+					"BelowMinPartySize": "You have not entered the minimum party size for online bookings at this restaurant.",
+					"BlockedDay": "Online bookings are not available on this date at this restaurant.",
+					"EarlyCutoff": "Your requested date exceeds the minimum advance booking limit for this restaurant.",
+					"FilteredBy": "Filtered By",
+					"FilteredBy_Cuisine": "Cuisine",
+					"FilteredBy_Location": "Location",
+					"FilteredBy_OfferType": "Special Offers",
+					"FilteredBy_OnlyExactDateTime": "{0} only",
+					"FilteredBy_PopOnly": "1,000 Pt times",
+					"FilteredBy_Price": "Price",
+					"NotActive": "Online reservations for now have been suspended. If you would like to make a reservation please contact the restaurant directly.",
+					"NotFarEnoughInAdvance": "You must make bookings at least 5 minutes in advance of the time at this restaurant.",
+					"NoTimesExist": "No tables are available within 2.5 hours of your request.",
+					"Offline": "This restaurant is unable to confirm reservations online at the moment. Therefore, please contact the restaurant directly.",
+					"SameDayCutoff": "This Restaurant has a cut off time for same day reservations and this has now passed.",
+					"SeeAllOffers": "See all offers",
+					"TooFarInAdvance": "Your requested date exceeds the maximum advance booking limit for this restaurant.",
+					"BlockedTimesExist": "Please accept our apologies on behalf of {0}. Online bookings are not available on this date at this restaurant."
+				},
+				"Strings": {
+					"NoSearchResults_MetroLink": "Return to the {0} homepage",
+					"NoSearchResults_MetroListLink": "Browse the list of all {0} restaurants",
+					"NoSearchResults_NoMatch_Message": "Unfortunately there are no OpenTable restaurants that meet all the criteria you specified.",
+					"NoSearchResults_NoMatch_Title": "We did not find a match for your search",
+					"NoSearchResults_Or": "or",
+					"NoSearchResults_OtherSuggestions": "Other suggestions",
+					"NoSearchResults_OtherSuggestionsMessage": "Or deselect any checkmarked box under \"Narrow results\" to broaden your search",
+					"NoSearchResults_StartOverButton": "Start over",
+					"NoSearchResults_UndoLastFilterButton": "Undo my last filter action"
+				},
+				"Tabs": {
+					"List": "List",
+					"Map": "Map"
+				},
+				"UnavailableMessages": {
+					"AboveMaxPartySize": "Your party size is larger than this restaurant's limit for online bookings.",
+					"BelowMinPartySize": "You have not entered the minimum party size for online bookings at this restaurant.",
+					"BlockedDay": "Online bookings are not available on this date at this restaurant.",
+					"EarlyCutoff": "Your requested date exceeds the minimum advance booking limit for this restaurant.",
+					"NotActive": "Online reservations for now have been suspended. If you would like to make a reservation please contact the restaurant directly.",
+					"NotFarEnoughInAdvance": "You must make bookings at least 5 minutes in advance of the time at this restaurant.",
+					"NoTimesExist": "No tables are available within 2.5 hours of your request.",
+					"Offline": "This restaurant is unable to confirm reservations online at the moment. Therefore, please contact the restaurant directly.",
+					"SameDayCutoff": "This Restaurant has a cut off time for same day reservations and this has now passed.",
+					"TooFarInAdvance": "Your requested date exceeds the maximum advance booking limit for this restaurant.",
+					"BlockedTimesExist": "Please accept our apologies on behalf of {0}. Online bookings are not available on this date at this restaurant."
+				}
+			}
+		},
+		"Strings": {
+			"Calendar_FirstDay": "0",
+			"Calendar_Months": "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec",
+			"Calendar_Weekdays": "Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday",
+			"Calendar_WeekdaysShort": "S,M,T,W,T,F,S",
+			"Currency": "$",
+			"DateFormat": "MM/dd/yyyy",
+			"DomainName": "OpenTable",
+			"FaviconURL": "/s/content/images/ot/favicon.ico",
+			"GlobalFooter": "Copyright &copy; {0} OpenTable, Inc. All rights reserved.",
+			"GlobalFooterLink_Privacy": "Privacy Policy",
+			"GlobalFooterLink_Terms": "OpenTable Terms of Use",
+			"GlobalHeaderLink_Android_Link": "https://play.google.com/store/apps/details?id=com.opentable",
+			"GlobalHeaderLink_Android_Title_Attribute": "Download our Android app",
+			"GlobalHeaderLink_Help": "Help",
+			"GlobalHeaderLink_Home": "Home",
+			"GlobalHeaderLink_iPhone_Link": "https://itunes.apple.com/app/opentable/id296581815?mt=8",
+			"GlobalHeaderLink_iPhone_Title_Attribute": "Download our iPhone app",
+			"GlobalHeaderLink_MyProfile": "My Profile",
+			"GlobalHeaderLink_SignIn": "Sign in",
+			"GlobalHeaderLink_SignOut": "Sign out",
+			"GlobalHeaderTagline": "Restaurant Reservations - Free &#8226; Instant &#8226; Confirmed",
+			"GoogleMaps_Region": "us",
+			"LogoImagePath": "/s/content/images/ot/opentable-logo.png",
+			"LogoImagePath_Concierge": "/s/content/images/ot/opentable-logo-concierge.png",
+			"PriceList2": "$$ ($30 and under)",
+			"PriceList3": "$$$ ($31 to $50)",
+			"PriceList4": "$$$$ ($50 and over)",
+			"StarRatingText": "{0} star",
+			"StarRatingText_Plural": "{0} stars",
+			"TimeFormat": "h:mm tt",
+			"Domain": "http://www.opentable.com",
+			"GlobalHeaderLink_Android_Text_Fallback": "Android",
+			"GlobalHeaderLink_iPhone_Text_Fallback": "iPhone",
+			"DistanceUnit": "miles",
+			"DistanceUnit_Small": "mi",
+			"TimeFormatJS": "h:mm A",
+			"SeoFooterMarkup": "<div class=\"seo-footer columns col-4\">\n    <div class=\"col col-no-margin\">\n        <h4>Featured Cities</h4>\n        <ul>\n            <li><a href=\"http://www.opentable.com/atlanta-restaurants\">Atlanta Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/chicago-restaurants\">Chicago Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/denver-restaurants\">Denver Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/las-vegas-restaurants\">Las Vegas Restaurants</a></li>\n            <li><a href=\"http://www.opentable.co.uk/london-restaurants\">London Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/los-angeles-restaurants\">Los Angeles Restaurants</a></li>\n        </ul>\n    </div>\n\n    <div class=\"col col-double-margin\">\n        <h4>&nbsp;</h4>\n        <ul>\n            <li><a href=\"http://www.opentable.com/boston-restaurants\">New England Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/new-york-city-restaurants\">New York Area Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/philadelphia-restaurants\">Philadelphia Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/san-francisco-restaurants\">San Francisco Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/seattle-restaurants\">Seattle Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/washington-dc-restaurants\">Washington DC Restaurants</a></li>\n        </ul>\n    </div>\n\n    <div class=\"col\">\n        <h4>Popular on OpenTable</h4>\n        <ul>\n            <li><a href=\"http://www.opentable.co.uk\">OpenTable UK</a></li>\n            <li><a href=\"http://www.opentable.com/promo.aspx?pid=412\">Private Dining</a></li>\n            <li><a href=\"http://www.opentable.com/promo.aspx?pid=156\">Restaurant Weeks</a></li>\n            <li><a href=\"http://www.opentable.com/promo.aspx?pid=433\">Diner's Choice Winners</a></li>\n            <li><a href=\"http://blog.opentable.com\">OpenTable Blog</a></li>\n            <li><a href=\"http://m.opentable.com\">OpenTable Mobile</a></li>\n        </ul>\n    </div>\n\n    <div class=\"col col-no-margin\">\n        <h4>More Information</h4>\n        <ul>\n            <li><a href=\"http://www.opentable.com/info/aboutus.aspx\">About OpenTable</a></li>\n            <li><a href=\"http://www.opentable.com/opentable-restaurant-management-system\">Restaurateurs: Join Us</a></li>\n            <li><a href=\"http://www.opentable.com/info/diningrewards.aspx\">Dining Rewards</a></li>\n            <li><a href=\"http://www.opentable.com/info/reservingforothers.aspx\">Reserve for Others</a></li>\n            <li><a href=\"http://www.opentable.com/info/affiliates.aspx\">Affiliate Program</a></li>\n            <li><a href=\"http://www.rgmgroup.com/advertisers-opentable.html\">Advertise</a></li>\n            <li><a href=\"http://www.opentable.com/opentable-sitemap.aspx\">Sitemap</a></li>\n        </ul>\n    </div>\n</div>",
+			"RestaurantsString": "Restaurants",
+			"OutboundUrlDateTimeFormat": "MM/dd/yyyy HH:mm:ss",
+			"DateAddedDateFormat": "MMMM d, yyyy",
+			"DateAddedFormat": "Added {0}",
+			"ReviewerDefaultName": "OpenTable Diner",
+			"PromoExpiredFallbackMessage": "[PromoName] has come and gone, but you can still dine at these great restaurants. Visit us next year to view a new restaurant list for [PromoName]. In the meantime, check out our other <a href=\"/start.aspx?m=[MetroID]\">[NumOfRestInMetro] [MetroShortName] restaurants</a> on the Opentable network."
+		}
+	}
+}
