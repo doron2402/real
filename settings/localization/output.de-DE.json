@@ -1,0 +1,534 @@
+{
+	"Resources": {
+		"Home": {
+			"ApiError": {
+				"Action": "Sie können zurück zur {0} oder Ihre {1} wiederholen.",
+				"Heading": "Entschuldigen Sie bitte. Leider haben wir momentan ein paar kurzfristige Schwierigkeiten Restaurant-Verfügbarkeiten abzufragen!",
+				"HomeLink": "<a href=\"/home.aspx\">startseite</a>",
+				"SearchAgainLink": "<a href=\"javascript://;\" onclick=\"this.href=window.location.href.replace('/?', '/interim?')\">suche</a>"
+			},
+			"Index": {
+				"MileTitle": "km",
+				"PageTitle": "Restaurant Reservierungsverfügbarkeit",
+				"ReviewsComingSoon": "Keine Bewertungen verfügbar",
+				"SearchLoadingText": "Verfügbarkeit prüfen"
+			}
+		},
+		"Interim": {
+			"Index": {
+				"Strings": {
+					"InterimLoader": "OpenTable stellt eine Verbindung zu den von Ihnen gewünschten Restaurants her und durchsucht deren Reservierungssysteme nach freien Tischen.",
+					"PageTitle": "OpenTable-Restaurants und Restaurantreservierungen"
+				}
+			}
+		},
+		"Shared": {
+			"AffiliateRestaurantList": {
+				"Strings": {
+					"ResultsTitleFormat": ""
+				}
+			},
+			"BestRestaurantsLandingPage": {
+				"Filters": {
+					"Label_Apply": "Übernehmen",
+					"Label_Cancel": "Abbrechen",
+					"Label_FilterBy_Cuisine": "Nach Art der Küche filtern",
+					"Label_FilterBy_OfferType": "Nach Angeboten filtern",
+					"Label_FilterBy_Price": "Nach Preis filtern",
+					"Label_Refine": "FILTERN",
+					"Label_Sort": "Sortierung",
+					"Label_Sort_Name": "A-Z",
+					"Label_Sort_Popularity": "Standard",
+					"Label_Sort_Popularity_Mobile": "Standard",
+					"Label_Sort_Rating": "Beste Bewertungen",
+					"Label_Sort_Rating_Mobile": "Bewertung",
+					"Title_Cuisines": "Küche",
+					"Title_Filters": "Filter",
+					"Title_Locations": "Ort",
+					"Title_OfferTypes": "Sonderangebote",
+					"Title_OnlyExactDateTime": "Nur {0} Uhr",
+					"Title_PopOnly": "1000 Punkte-Zeiten",
+					"Title_Price": "Preis",
+					"Title_RefineYourSearch": "Suche verfeinern"
+				},
+				"Strings": {
+					"Calendar_WeekDays_Short": "So,Mo,Di,Mi,Do,Fr,Sa",
+					"DateSelectionFormat": "M/DD ###",
+					"DinersChoice_CuisineFormat": "Best {0}",
+					"DinersChoice_MostBooked": "Most Booked",
+					"DinersChoice_MostBookedPop": "Most Booked 1000-Point Tables",
+					"HeaderLink_Help": "Hilfe",
+					"HeaderLink_SignIn": "Anmelden",
+					"HeaderLink_SignUp": "Profil Anlegen",
+					"HeaderTitleFormat": "Die Besten Restaurants in {0}",
+					"Label_FindATable": "Einen Tisch finden",
+					"Label_NeighborhoodLinks": "Mehr Top-Restaurants Ansehen",
+					"Label_Next": "Weiter",
+					"Label_Previous": "Zurück",
+					"Label_ShowAll": "Alle Anzeigen",
+					"Label_Today": "Heute",
+					"MetaDescription": "Reservieren sie kostenlos bei den besten Restaurants in {0}.\nLesen Sie Bewertungen, Restaurantbeschreibungen und finden Sie das perfekte Restaurant für jeden Anlass.",
+					"PageTitleFormat": "Die Besten Restaurants in {0} OpenTable",
+					"TimeslotLegend_1000Points": "1000 Punkte",
+					"TimeslotLegend_Offer": "{0} Angebote",
+					"TimeslotLegend_Offers": "{0} Angebote",
+					"TitleFormat": "Die Besten Restaurants"
+				}
+			},
+			"Common": {
+				"BreadCrumbs": {
+					"HomeNode": "Startseite",
+					"LastNode": "Restaurant Verfügbarkeit",
+					"LocationNode": "Restaurants"
+				},
+				"Filters": {
+					"ChooseDistance": "Entfernung",
+					"Distance": "km",
+					"MoreLink": "Mehr",
+					"SeeAllOffers": "Alle Angebote",
+					"Title": "Ergebnis Filtern",
+					"Title_Cuisines": "Küche",
+					"Title_Locations": "Ort",
+					"Title_OfferTypes": "Sonderangebote",
+					"Title_OnlyExactDateTime": "Nur {0} Uhr",
+					"Title_PopOnly": "1000 Punkte-Zeiten",
+					"Title_Price": "Preis",
+					"Title_Within": "Innerhalb"
+				},
+				"LocationBar": {
+					"ChangeLocation": "Ort ändern"
+				},
+				"Modals": {
+					"CancelButton": "Beeden",
+					"Location_AddressPlaceholderText": "Stadt, Adresse oder Postleitzahl eingeben",
+					"Location_AllMetroName": "Alle {0}",
+					"Location_ChangeLocationLink": "Ort ändern",
+					"Location_DidYouMean": "Did you mean",
+					"Location_NoRadiusSelectedError": "<p class=\"location-error\">Bitte wählen Sie einen Radius, in dem gesucht</p>",
+					"Location_NoSearchResultsError": "<div class=\"list-wrapper\">\n    <span>Leider konnte der Ort nicht gefunden werden. Bitte überprüfen Sie die Adresse und versuchen es noch einmal.</span>\n    <p>Vorschläge:</p>\n\n    <ul>\n        <li>Bitte achten Sie darauf, dass alle Städtenamen richtig geschrieben sind.</li>\n        <li>Bitte achten Sie darauf, dass die Adresse eine Stadt und Bundesland enthält.</li>\n        <li>Bitte versuchen Sie eine Postleitzahl einzugeben.</li>\n    </ul>\n</div>",
+					"Location_NoSelectionError": "<p class=\"location-error\">Bitte wählen Sie mindestens ein Gebiet für die Suche aus.</p>",
+					"Location_RadiusLabel": "Suche innerhalb",
+					"Location_SearchLabel": "Stadt oder Postleitzahl eingeben",
+					"Location_SeeAllLocationsLink": "Siehe alle Städte und Bundesländer",
+					"Location_SelectCity": "oder Stadt aussuchen",
+					"Location_Title_Area": "nach Gebiet filtern",
+					"Location_Title_ChangeLocation": "Ort ändern",
+					"Offers_PopOfferTitle": "1,000 Points",
+					"Price_Text": "Dieser Preis entspricht dem geschätzten Preis für ein Abendessen pro Person, inklusive einem Getränk und Trinkgeld. Der Preis für ein Mittagessen ist üblicherweise um 25% geringer.",
+					"Price_Title": "Preisangaben",
+					"Restaurant_BookingMessage": "Reservieren Sie Ihren Tisch",
+					"Restaurant_Cuisine": "Küche",
+					"Restaurant_Neighborhood": "Gebiet",
+					"Restaurant_Parking": "Parkmöglichkeiten",
+					"Restaurant_Price": "Preisklasse",
+					"Restaurant_SpecialOffers": "Sonderangebote",
+					"SubmitButton": "Senden"
+				},
+				"Results": {
+					"Header_Area": "Gebiet",
+					"Header_Availability": "Verfügbarkeit\n(zum Reservieren auf Uhrzeit klicken)",
+					"Header_Cuisine": "Cuisine",
+					"Header_Name": "Restaurant Name",
+					"Header_Name_Short": "Name",
+					"Header_Popularity": "Beliebtheit",
+					"Header_Distance": "Entfernung",
+					"Header_Price": "Preis",
+					"Header_Ratings": "Bewertungen",
+					"NextAvailableButton": "Find next available",
+					"PopTitle": "{0} Restaurants mit 1.000-Punkte-Zeiten verfügbar",
+					"PopTitle_Plural": "{0} Restaurants mit 1.000-Punkte-Zeiten verfügbar",
+					"Reviews": "{0} Bewertungen",
+					"ReviewsComingSoon": "Keine Bewertungen verfügbar",
+					"Reviews_Plural": "{0} Bewertungen",
+					"SeeAllOffers": "Alle Angebote",
+					"Timeslot1000Points": "1.000 Pkt",
+					"Title_Availability": "{0} Restaurant mit Verfügbarkeit",
+					"Title_Promos": "{0} Restaurant",
+					"Title_Availability_Plural": "{0} Restaurants mit Verfügbarkeit",
+					"Title_NoAvailability": "{0} Restaurant ohne Verfügbarkeit",
+					"Title_NoAvailability_Plural": "{0} Restaurants ohne Verfügbarkeit",
+					"WithAvailabilityLink": "{0} zusätzliche Restaurant mit Verfügbarkeit",
+					"WithAvailabilityLink_Plural": "{0} zusätzliche Restaurants mit Verfügbarkeit",
+					"WithNoAvailabilityLink": "{0} zusätzliche Restaurant ohne Verfügbarkeit",
+					"WithNoAvailabilityLink_Plural": "{0} zusätzliche Restaurants ohne Verfügbarkeit",
+					"FeaturedPopTitle": "Restaurants mit 1.000-Punkte-Zeiten verfügbar",
+					"FeaturedPopTitle_Plural": "Restaurants mit 1.000-Punkte-Zeiten verfügbar",
+					"Header_Sorted_by": "Sorted by:",
+					"SeeAllPopRestaurantsFormat": "",
+					"Title_ResultsTotal": "{0} Restaurant",
+					"Title_ResultsTotal_Plural": "{0} Restaurants",
+					"Title_Promos_Plural": "{0} Restaurants"
+				},
+				"Strings": {
+					"Button_FindATable": "Tisch buchen",
+					"DateTimePartySizeDateFormat": "ddd, d MMMM",
+					"SearchCoversLargeParty": "20+ Personen",
+					"SearchCoversMultiple": "{0} Personen",
+					"SearchCoversSingular": "{0} Person",
+					"SearchLabel_Date": "Datum",
+					"SearchLabel_DateFormat": "TT.MM.JJJJ",
+					"SearchLabel_Diners": "Personenzahl",
+					"SearchLabel_InvalidSearchMsg": "Sie haben versucht, eine bereits vergangene Uhrzeit auszuwählen. Bitte geben Sie eine gültige Datum-Zeit-Kombination ein.",
+					"SearchLabel_Time": "Zeit"
+				}
+			},
+			"CuisineLandingPage": {
+				"Strings": {
+					"CoverImageAlt": "{1} Restaurants {0}",
+					"CoverImageHeadingFormat": "{1} Restaurants {0}",
+					"MetaDescription": "Book now at top {0} {1} restaurants, read reviews, explore menus and photos. Find the perfect spot for any occasion",
+					"PageTitleFormat": "{0} {1} Restaurants | {2}",
+					"TitleFormat": "{1} Restaurants {0}"
+				}
+			},
+			"DinersChoice": {
+				"Filters": {
+					"AllFilterLabel": "Alle {0}",
+					"BestAmbience": "Bestes Ambiente",
+					"BestFood": "Bestes Essen",
+					"BestOverall": "Beste Gesamtbewertung",
+					"BestService": "Bester Service",
+					"MostBookedTitle": "Am meisten gebucht",
+					"RatingsTitle": "Bewertungen",
+					"RefineLocation": "Zielgebiet-Filter",
+					"SelectAList": "Liste auswählen",
+					"SpecialFeaturesTitle": "Gut für",
+					"Tagline": "Von Gästen für Gäste"
+				},
+				"LocationBar": {
+					"Restaurants": "Restaurants",
+					"TitleFormat": "{0} {1} - {2}"
+				},
+				"Results": {
+					"ResultsTitle": "10 Restaurants"
+				},
+				"Strings": {
+					"CuisineTitleFormat": "Best {0}",
+					"MostBookedPop": "1000-Point Tables",
+					"MostBookedPopTitle": "Most Booked 1000-Point Tables",
+					"MostBookedTitle": "Most Booked",
+					"PageTitleFormat": "{0} {1} {2} | {3}",
+					"Tagline": "Bewertet von OpenTable Gästen",
+					"TitleFallback": "Diners Choice",
+					"TitleFormat": "{0} Restaurants - {1}"
+				}
+			},
+			"DinersChoiceList": {
+				"CategoryLabels": {
+					"afternoontea": "",
+					"ambience": "",
+					"brunch": "",
+					"businessmeals": "",
+					"childfriendly": "",
+					"disabledaccess": "",
+					"food": "",
+					"foodies": "",
+					"greatforbrunch": "",
+					"groups": "",
+					"hotspot": "",
+					"latenightfind": "",
+					"lunch": "",
+					"mostbooked": "",
+					"mostbooked_pop": "",
+					"neighborhoodgem": "",
+					"notablewinelist": "",
+					"outdoordining": "",
+					"outstandingvalue": "",
+					"overall": "",
+					"preposttheatre": "",
+					"romance": "",
+					"scenicview": "",
+					"service": "",
+					"specialoccasions": "",
+					"value": "",
+					"vegetarianoptions": "",
+					"vibrantbarscene": ""
+				},
+				"CategoryPageDescriptions": {
+					"afternoontea": "",
+					"ambience": "",
+					"brunch": "",
+					"businessmeals": "",
+					"childfriendly": "",
+					"disabledaccess": "",
+					"food": "",
+					"foodies": "",
+					"greatforbrunch": "",
+					"groups": "",
+					"hotspot": "",
+					"latenightfind": "",
+					"lunch": "",
+					"mostbooked": "",
+					"mostbooked_pop": "",
+					"neighborhoodgem": "",
+					"notablewinelist": "",
+					"outdoordining": "",
+					"outstandingvalue": "",
+					"overall": "",
+					"preposttheatre": "",
+					"romance": "",
+					"scenicview": "",
+					"service": "",
+					"specialoccasions": "",
+					"value": "",
+					"vegetarianoptions": "",
+					"vibrantbarscene": ""
+				},
+				"Strings": {
+					"BestFoodFilterName": "",
+					"CategoryTitleFormat": "",
+					"CuisineTitleFormat": "",
+					"LinkSectionCuisinesTitle": "",
+					"LinkSectionFeaturesTitle": "",
+					"LinkSectionLocationTitleFormat": "",
+					"LinkSectionRegionsTitleFormat": "",
+					"MostBooked": "",
+					"MostBookedFilterName": "",
+					"MostBookedPop": "",
+					"MostBookedPopFilterName": "",
+					"PageTitleFormat": "",
+					"ResultsTitle": "",
+					"CategoryLabelFallbackFormat": "",
+					"SearchSmallHeadingFormat": "",
+					"CuisinePageDescriptionFallbackFormat": ""
+				}
+			},
+			"JustAddedList": {
+				"Strings": {
+					"PageDescriptionFormat": "",
+					"PageTitleFormat": "",
+					"ResultsTitleAvailabilityFormat": "",
+					"ResultsTitleFormat": "",
+					"SearchBigHeadingFormat": "",
+					"Tagline": ""
+				}
+			},
+			"OfferRestaurantList": {
+				"Strings": {
+					"PageDescriptionFormat": "",
+					"PageTitleFormat": "",
+					"ResultsTitleAvailabilityFormat": "",
+					"ResultsTitleFormat": "",
+					"SearchBigHeadingFormat": ""
+				}
+			},
+			"PopRestaurantList": {
+				"Strings": {
+					"PageDescription": "",
+					"PageTitleFormat": "",
+					"PopScheduleHeading": "",
+					"SearchBigHeadingFormat": ""
+				}
+			},
+			"Redesign": {
+				"Filters": {
+					"Label_Apply": "",
+					"Label_Cancel": "",
+					"Label_FilterBy_Cuisine": "",
+					"Label_FilterBy_OfferType": "",
+					"Label_FilterBy_Price": "",
+					"Label_FilterBy_Range": "",
+					"Label_Sort": "",
+					"Label_Sort_Distance": "",
+					"Label_Sort_Name": "",
+					"Label_Sort_Popularity": "",
+					"Label_Sort_Popularity_Mobile": "",
+					"Label_Sort_Rating": "",
+					"Label_Sort_Rating_Mobile": "",
+					"Title_Cuisines": "",
+					"Title_Filters": "",
+					"Title_Locations": "",
+					"Title_Neighborhoods": "",
+					"Title_OfferTypes": "",
+					"Title_OnlyExactDateTime": "",
+					"Title_PopOnly": "",
+					"Title_Price": "",
+					"Title_Range": "",
+					"Title_RefineYourSearch": "",
+					"Title_Regions": ""
+				},
+				"NoResults": {
+					"Heading": "",
+					"OtherSuggestionsHeading": "",
+					"OtherSuggestionsMessage": ""
+				},
+				"Results": {
+					"About1000PointRestaurants": "",
+					"FeaturedPopTitle": "",
+					"FeaturedPopTitle_Plural": "",
+					"Header_Area": "",
+					"Header_Availability": "",
+					"Header_Cuisine": "",
+					"Header_Distance": "",
+					"Header_Name": "",
+					"Header_Name_Short": "",
+					"Header_Popularity": "",
+					"Header_Price": "",
+					"Header_Ratings": "",
+					"Header_Sorted_by": "",
+					"IncludeInterspercedAvailabilityLink": "",
+					"IncludeInterspercedAvailabilityText": "",
+					"NextAvailableButton": "",
+					"PopTitle": "",
+					"PopTitle_Plural": "",
+					"Reviews": "",
+					"ReviewsComingSoon": "",
+					"Reviews_Plural": "",
+					"SeeAllOffers": "",
+					"Timeslot1000Points": "",
+					"Title_Availability": "",
+					"Title_Availability_Plural": "",
+					"Title_DateLessSearch": "",
+					"Title_NoAvailability": "",
+					"Title_NoAvailability_Plural": "",
+					"Title_Promos": "",
+					"Title_Promos_Plural": "",
+					"WithAvailabilityLink": "",
+					"WithAvailabilityLink_Plural": ""
+				},
+				"Strings": {
+					"CopyrightFormat": "",
+					"CurrencySymbol": "",
+					"DefaultReviewerName": "",
+					"InterimLoader": "",
+					"Label_Next": "",
+					"Label_Previous": "",
+					"Label_Sort": "",
+					"Label_Sort_Name": "",
+					"Label_Sort_Popularity": "",
+					"Label_Sort_Rating": "",
+					"Label_TopOffer": "",
+					"Less": "",
+					"MapFooterLink_Privacy": "",
+					"MapFooterLink_Terms": "",
+					"More": "",
+					"Reserve_Dinner": "",
+					"Reserve_Lunch": "",
+					"Reserve_Now": "",
+					"TimeslotLegend_1000Points": "",
+					"TimeslotLegend_Offer": "",
+					"TimeslotLegend_Offers": ""
+				}
+			},
+			"RestaurantAttributesLandingPage": {
+				"Strings": {
+					"HeaderTitleFormat": "{0} in {1}",
+					"MetaDescription": "{0} in {1}. Make reservations, read reviews, see photos, explore menus and find the perfect spot for any occasion.",
+					"PageTitleFormat": "{0} {1} | OpenTable"
+				}
+			},
+			"RestaurantList": {
+				"Strings": {
+					"PageDescriptionFormat": "",
+					"PageTitleFormat": "",
+					"SearchBigHeadingFormat": ""
+				}
+			},
+			"Search": {
+				"Map": {
+					"ClickToSeeAvailableTimes": "Uhrzeiten verfügbar, auf Pinnadel klicken um anzuzeigen",
+					"Navigation_Next": "Weiter",
+					"Navigation_Previous": "Zurück",
+					"SearchWithin": "Nur Suche nach Restaurants in",
+					"Title": "Die {0} nächstliegenden Restaurants",
+					"Title_Between": "Restaurants {0} - {1}",
+					"UserPinTitle": "Drag & Drop mich in der Nähe eines anderen Gebiet zu suchen"
+				},
+				"Results": {
+					"AboveMaxPartySize": "",
+					"BelowMinPartySize": "",
+					"BlockedDay": "",
+					"EarlyCutoff": "",
+					"NotActive": "",
+					"NotFarEnoughInAdvance": "",
+					"NoTimesExist": "",
+					"Offline": "",
+					"SameDayCutoff": "",
+					"TooFarInAdvance": "",
+					"SeeAllOffers": "",
+					"FilteredBy": "Gefiltert nach",
+					"FilteredBy_Cuisine": "Küche",
+					"FilteredBy_Location": "Ort",
+					"FilteredBy_OfferType": "",
+					"FilteredBy_OnlyExactDateTime": "Nur {0} Uhr",
+					"FilteredBy_PopOnly": "",
+					"FilteredBy_Price": "Preis",
+					"BlockedTimesExist": "Online-Reservierungen sind an diesem {0} leider nicht möglich."
+				},
+				"Strings": {
+					"NoSearchResults_MetroLink": "Zurück zur {0} Homepage >",
+					"NoSearchResults_MetroListLink": "Liste von allen {0} Restaurants durchsuchen",
+					"NoSearchResults_NoMatch_Message": "Sie haben zu viele Filter angelegt, daher gibt es leider keine Restaurants, die all Ihren Kriterien entsprechen.",
+					"NoSearchResults_NoMatch_Title": "Keine Übereinstimmung",
+					"NoSearchResults_Or": "oder",
+					"NoSearchResults_OtherSuggestions": "Andere Vorschläge",
+					"NoSearchResults_OtherSuggestionsMessage": "Or deselect any checkmarked box under \"Narrow results\" to broaden your search",
+					"NoSearchResults_StartOverButton": "Neue Anfrage",
+					"NoSearchResults_UndoLastFilterButton": "Letzten Filter zurücksetzen"
+				},
+				"Tabs": {
+					"List": "Liste",
+					"Map": "Karte"
+				},
+				"UnavailableMessages": {
+					"AboveMaxPartySize": "",
+					"BelowMinPartySize": "",
+					"BlockedDay": "",
+					"EarlyCutoff": "",
+					"NotActive": "",
+					"NotFarEnoughInAdvance": "",
+					"NoTimesExist": "",
+					"Offline": "",
+					"SameDayCutoff": "",
+					"TooFarInAdvance": "",
+					"BlockedTimesExist": ""
+				}
+			}
+		},
+		"Strings": {
+			"Calendar_FirstDay": "1",
+			"Calendar_Months": "Jan,Feb,Mrz,Apr,Mai,Jun,Jul,Aug,Sep,Okt,Nov,Dez",
+			"Calendar_Weekdays": "Sonntag, Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag",
+			"Calendar_WeekdaysShort": "S,M,T,W,T,F,S",
+			"Currency": "€",
+			"DateFormat": "dd/MM/yyyy",
+			"DomainName": "OpenTable",
+			"FaviconURL": "/s/content/images/de/favicon.ico",
+			"GlobalFooter": "Copyright &copy; {0} OpenTable International Limited. All rights reserved.",
+			"GlobalFooterLink_Privacy": "Datenschutzerklärung",
+			"GlobalFooterLink_Terms": "Nutzungsbedingungen",
+			"GlobalHeaderLink_Android_Link": "",
+			"GlobalHeaderLink_Android_Title_Attribute": "Laden Sie unsere Android App",
+			"GlobalHeaderLink_Help": "Hilfe",
+			"GlobalHeaderLink_Home": "Home",
+			"GlobalHeaderLink_iPhone_Link": "http://www.opentable.de/iphonede",
+			"GlobalHeaderLink_iPhone_Title_Attribute": "Mobile",
+			"GlobalHeaderLink_MyProfile": "Mein Profil",
+			"GlobalHeaderLink_SignIn": "Anmelden",
+			"GlobalHeaderLink_SignOut": "Abmelden",
+			"GlobalHeaderTagline": "Restaurant-Reservierungen: Sofort, zuverlässig und kostenlos.",
+			"GoogleMaps_Region": "de",
+			"LogoImagePath": "/s/content/images/de/opentable-logo.png",
+			"LogoImagePath_Concierge": "/s/content/images/de/opentable-logo-concierge.png",
+			"PriceList2": "€€ (30 Euro und darunter)",
+			"PriceList3": "€€€ (31 bis 50 Euro)",
+			"PriceList4": "€€€€ (51 Euro und darüber)",
+			"StarRatingText": "{0} Stern",
+			"StarRatingText_Plural": "{0} Sterne",
+			"TimeFormat": "H:mm",
+			"Domain": "http://www.opentable.de",
+			"GlobalHeaderLink_Android_Text_Fallback": "Android",
+			"GlobalHeaderLink_iPhone_Text_Fallback": "Mobile",
+			"DistanceUnit": "kilometers",
+			"DistanceUnit_Small": "km",
+			"TimeFormatJS": "h:mm",
+			"SeoFooterMarkup": "<div class=\"seo-footer columns col-4\">\n    <div class=\"col col-no-margin\">\n        <h4>Featured Cities</h4>\n        <ul>\n            <li><a href=\"http://www.opentable.com/atlanta-restaurants\">Atlanta Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/chicago-restaurants\">Chicago Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/denver-restaurants\">Denver Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/las-vegas-restaurants\">Las Vegas Restaurants</a></li>\n            <li><a href=\"http://www.opentable.co.uk/london-restaurants\">London Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/los-angeles-restaurants\">Los Angeles Restaurants</a></li>\n        </ul>\n    </div>\n\n    <div class=\"col col-double-margin\">\n        <h4>&nbsp;</h4>\n        <ul>\n            <li><a href=\"http://www.opentable.com/boston-restaurants\">New England Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/new-york-city-restaurants\">New York Area Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/philadelphia-restaurants\">Philadelphia Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/san-francisco-restaurants\">San Francisco Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/seattle-restaurants\">Seattle Restaurants</a></li>\n            <li><a href=\"http://www.opentable.com/washington-dc-restaurants\">Washington DC Restaurants</a></li>\n        </ul>\n    </div>\n\n    <div class=\"col\">\n        <h4>Popular on OpenTable</h4>\n        <ul>\n            <li><a href=\"http://www.opentable.co.uk\">OpenTable UK</a></li>\n            <li><a href=\"http://www.opentable.com/promo.aspx?pid=412\">Private Dining</a></li>\n            <li><a href=\"http://www.opentable.com/promo.aspx?pid=156\">Restaurant Weeks</a></li>\n            <li><a href=\"http://www.opentable.com/promo.aspx?pid=433\">Diner's Choice Winners</a></li>\n            <li><a href=\"http://blog.opentable.com\">OpenTable Blog</a></li>\n            <li><a href=\"http://m.opentable.com\">OpenTable Mobile</a></li>\n        </ul>\n    </div>\n\n    <div class=\"col col-no-margin\">\n        <h4>More Information</h4>\n        <ul>\n            <li><a href=\"http://www.opentable.com/info/aboutus.aspx\">About OpenTable</a></li>\n            <li><a href=\"http://www.opentable.com/opentable-restaurant-management-system\">Restaurateurs: Join Us</a></li>\n            <li><a href=\"http://www.opentable.com/info/diningrewards.aspx\">Dining Rewards</a></li>\n            <li><a href=\"http://www.opentable.com/info/reservingforothers.aspx\">Reserve for Others</a></li>\n            <li><a href=\"http://www.opentable.com/info/affiliates.aspx\">Affiliate Program</a></li>\n            <li><a href=\"http://www.rgmgroup.com/advertisers-opentable.html\">Advertise</a></li>\n            <li><a href=\"http://www.opentable.com/opentable-sitemap.aspx\">Sitemap</a></li>\n        </ul>\n    </div>\n</div>",
+			"RestaurantsString": "Restaurants",
+			"OutboundUrlDateTimeFormat": "dd/MM/yyyy HH:mm:ss",
+			"DateAddedDateFormat": "MMMM d, yyyy",
+			"DateAddedFormat": "",
+			"ReviewerDefaultName": "",
+			"PromoExpiredFallbackMessage": "[PromoName] ist bereits beendet, aber Sie können immer noch in allen hervorragenden Restaurants speisen, die daran teilgenommen haben. Besuchen Sie uns nächstes Jahr für eine neue Liste von den an [PromoName] teilnehmenden Restaurants. Warum schauen Sie sich in der Zwischenzeit nicht die <a href=\"/start.aspx?m=[MetroID]\">[NumOfRestInMetro] [MetroShortName] Restaurants</a> im OpenTable Netzwerk an?"
+		}
+	}
+}

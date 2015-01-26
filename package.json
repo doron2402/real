@@ -1,0 +1,33 @@
+{
+  "name": "realestate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doron2402/real.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doron2402/real/issues"
+  },
+  "homepage": "https://github.com/doron2402/real",
+  "dependencies": {
+    "boom": "^2.6.1",
+    "handlebars": "^2.0.0",
+    "hapi": "^8.1.0",
+    "mongoose": "^3.8.22"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-available-tasks": "^0.5.4",
+    "grunt-contrib-jshint": "^0.11.0",
+    "lab": "^5.2.1",
+    "load-grunt-config": "^0.16.0",
+    "should": "^4.6.1"
+  }
+}
