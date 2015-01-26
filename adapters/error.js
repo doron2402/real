@@ -13,10 +13,6 @@ function ErrorAdapter(options, reply) {
     return reply.view('error', {error: boom.notFound('missing')});
   }
   else {
-    console.log('options....');
-    console.log('options....');
-    console.log('options....');
-    console.log(options);
     if (options.status) {
       var error = new Error(options.status);
       switch(options.status) {

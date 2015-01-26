@@ -7,12 +7,10 @@ if (process.env.NODE_ENV && process.env.NODE_ENV.indexOf('prod') !== -1) {
     env = 'prod';
     //Run production script here
 }
-var settings = require(__base + 'settings').getSettings(env);
-
 if (!global.__base) {
 	global.__base = __dirname + '/';
 }
-
+var settings = require(__base + 'settings').getSettings(env);
 
 //Node Modules
 var Hapi = require('hapi');
@@ -21,13 +19,13 @@ var hbs = require('handlebars');
 
 //variables
 var serverOptions = settings.server.options;
-
+var noSqlSettings = settings.nosql;
 var server = new Hapi.Server(serverOptions);
 
-mongoose.connect('mongodb://localhost/test');
-var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function (callback) {
+mongoose.connect('mongodb://' + noSqlSettings.USERNAME + ':' + noSqlSettings.PASSWORD + '@' + noSqlSettings.HOST + '/' + noSqlSettings.DB_NAME);
+var mongodb = mongoose.connection;
+mongodb.on('error', console.error.bind(console, 'connection error:'));
+mongodb.once('open', function (callback) {
   console.log('Connection Successfully.');
 });
 
@@ -36,13 +34,13 @@ var plugins = [
     {
       register: require('./routes/base'),
       options: {
-          database: db
+          mongodb: mongodb
       }
     },
     {
       register: require('./routes/users'),
       options: {
-          database: db
+          mongodb: mongodb
       }
     }
 ];

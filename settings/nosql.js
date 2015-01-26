@@ -2,16 +2,20 @@
 
 var nosql = {
 	prod: {
-		HOST: '0.0.0.0',
-		PORT: '3000'
+    USERNAME: '',
+    PASSWORD: '',
+		HOST: '127.0.0.1',
+    DB_NAME: 'real'
 	},
 	stage: {
-		HOST: '0.0.0.0',
-		PORT: '3000'
+		HOST: '127.0.0.1',
+    DB_NAME: 'real'
 	},
 	dev: {
-		HOST: '0.0.0.0',
-		PORT: '3000'
+		USERNAME: '',
+    PASSWORD: '',
+    HOST: '127.0.0.1',
+    DB_NAME: 'real'
 	},
 	getSettings: function(env){
 		return nosql[env];

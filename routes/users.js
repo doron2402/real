@@ -1,11 +1,11 @@
 'use strict';
 var controllers = require(__base + '/controllers');
-var HomeController = controllers.home;
+var UsersController = controllers.users;
 
 exports.register = function(server, options, next) {
   server.route([{
     method: 'GET',
-    path: '/',
+    path: '/users',
     config: {
       handler: function (request, reply) {
         var context = {
@@ -18,28 +18,19 @@ exports.register = function(server, options, next) {
     }
   }, {
     method: 'GET',
-    path: '/home',
+    path: '/users/{id}',
     config: {
       handler: function (request, reply) {
-        var context = {
-          'title': 'Views Example',
-          'data': 'Hello, World',
-          'js_file': 'hello'
-        };
-
-        return reply.view('home', context);
+        return reply({code: 'ok', body: {id: 1, name: 'user full name'}});
       }
     }
   },
-  //Public directory
-  {
-    method: 'GET',
-    path: '/public/{param*}',
-    handler: {
-      directory: {
-        'path': './public',
-        'listing': false,
-        'index': false
+  { //Update user document
+    method: 'POST',
+    path: '/users/{id}',
+    config: {
+      handler: function (request, reply) {
+        return reply({code: 'ok'});
       }
     }
   }
@@ -48,6 +39,6 @@ exports.register = function(server, options, next) {
 };
 
 exports.register.attributes = {
-    name: 'routes-base',
+    name: 'routes-users',
     version: '1.0.1'
 };
