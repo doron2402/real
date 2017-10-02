@@ -20,7 +20,7 @@
     "boom": "^2.6.1",
     "handlebars": "^2.0.0",
     "hapi": "^8.1.0",
-    "mongoose": "^3.8.22"
+    "mongoose": "^4.11.14"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
