@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/doron2402/real",
   "dependencies": {
-    "boom": "^2.6.1",
+    "boom": "^3.1.3",
     "handlebars": "^2.0.0",
-    "hapi": "^8.1.0",
+    "hapi": "^13.4.0",
     "mongoose": "^3.8.22"
   },
   "devDependencies": {
